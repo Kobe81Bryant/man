@@ -11,6 +11,8 @@ public abstract class AbstractTask implements Job {
 
     protected abstract void executeInternal(JobExecutionContext context);
 
+
+
     protected String cronExpression;
 
     @Override
